@@ -15,7 +15,7 @@ private:
   /**
    *   Generate sigma points:
    *  @param x : State vector.
-   *  @param P : Covariance matrix.
+   *  @param P : Covariance matrix
    *  @param lambda: Sigma points spreading parameter.
    *  @param n_sig: Sigma points dimension.
    */
