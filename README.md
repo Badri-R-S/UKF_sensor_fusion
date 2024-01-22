@@ -6,7 +6,7 @@ The performance of the filter has been measured using the RMSE error metric. Alo
 ## State
 The state of the vehicle is defined by a 5-element vector as follows:
 <p align="center">
-<img width="600" height="400" src="https://github.com/Badri-R-S/EKF_sensor_fusion/blob/main/Results/kalman_filter_map.png"
+<img width="600" height="400" src="https://github.com/Badri-R-S/UKF_sensor_fusion/blob/master/Results/state.png"
 </p> 
   
 - px is the x-position of the bicycle.
@@ -18,11 +18,14 @@ Yaw rate provides rich information about the turning speed of the vehicle. It is
 
 ## CTRV Motion Model
 CTRV model is a proper choice for this problem. 
+<p align="center">
+<img width="600" height="400" src="https://github.com/Badri-R-S/UKF_sensor_fusion/blob/master/Results/CTRV.png"
+</p> 
 While more complex models exist to capture highly dynamic behaviors, the CTRV strikes a balance between simplicity and accuracy. 
 It provides a reasonable approximation of the motion dynamics for many real-world scenarios without introducing unnecessary complexity.
 The way the state variables change under this dynamics model is described by the matrix below:
 <p align="center">
-<img width="600" height="400" src="https://github.com/Badri-R-S/EKF_sensor_fusion/blob/main/Results/kalman_filter_map.png"
+<img width="600" height="400" src="https://github.com/Badri-R-S/UKF_sensor_fusion/blob/master/Results/CTRV_vec.png"
 </p> 
 
 ## Steps to run the code
@@ -36,7 +39,7 @@ The way the state variables change under this dynamics model is described by the
 ## Results:
 - The Lidar measurements are shown as red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles.
 <p align="center">
-<img width="600" height="400" src="https://github.com/Badri-R-S/EKF_sensor_fusion/blob/main/Results/Screenshot%20from%202024-01-11%2008-39-16.png"
+<img width="600" height="400" src="https://github.com/Badri-R-S/UKF_sensor_fusion/blob/master/Results/result.png"
 </p> 
   
 - the full video can be viewed at : [Result](https://drive.google.com/file/d/1neUnBMtkMTQONFciqeQmb8F5wN_0QcJu/view?usp=sharing)
