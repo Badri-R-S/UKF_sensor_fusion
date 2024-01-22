@@ -12,7 +12,7 @@ class Tools {
   Tools();
 
   /**
-   * Destructor.
+   * Destructor
    */
   virtual ~Tools();
 
