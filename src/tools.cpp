@@ -18,7 +18,7 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
   rmse << 0,0,0,0;
 
   if(estimations.size() == 0){
-    std::cout << "ERROR - CalculateRMSE () - The estimations vector is empty" << std::endl;
+    std::cout << "ERROR - CalculateRMSE () - The estimations vector is empty." << std::endl;
     return rmse;
   }
 
