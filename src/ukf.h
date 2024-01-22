@@ -22,7 +22,7 @@ private:
   MatrixXd GenerateSigmaPoints(VectorXd x, MatrixXd P, double lambda, int n_sig);
 
   /**
-   * Predits sigma points.
+   * Predits sigma points
    * @param Xsig : Sigma points to predict.
    * @param delta_t : Time between k and k+1 in s
    * @param n_x : State dimension.
