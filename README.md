@@ -21,6 +21,7 @@ CTRV model is a proper choice for this problem.
 <p align="center">
 <img width="600" height="400" src="https://github.com/Badri-R-S/UKF_sensor_fusion/blob/master/Results/CTRV.png"
 </p> 
+  
 While more complex models exist to capture highly dynamic behaviors, the CTRV strikes a balance between simplicity and accuracy. 
 It provides a reasonable approximation of the motion dynamics for many real-world scenarios without introducing unnecessary complexity.
 The way the state variables change under this dynamics model is described by the matrix below:
